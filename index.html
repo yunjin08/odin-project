@@ -1,77 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Sign-up</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="content">
-        <div class  ="imageContainer">
-            <div class="images">
+      <div class="picture">
+        <div class="logo">
+          <img src="./logo-g8230969e6_640.png" alt="logo" class="whale" />
+          <h1 class="omale">Omale</h1>
         </div>
-        <div class="headImage">
-            <div class="headerBox">
-                <img src="whale.png" class="headerPic">
-                <h1>Omale</h1>
+      </div>
+      <div class="right">
+        <div class="dummy-text left">
+          <p>
+            This is a sample template for a sign-in webpage, designed to provide
+            a user-friendly and secure authentication experience.
+          </p>
+          <p>Sign up <em>now</em> to get started.</p>
+          <p class="remote-text">You <em>know</em> you want to.</p>
+        </div>
+        <form action="#">
+          <div class="form left">
+            <p class="form-title">Let's do this!</p>
+            <div class="input">
+              <label for="first-name">First name</label>
+              <input type="text" name="first-name" id="first-name" required />
             </div>
-        </div>
-        </div>
-        <div class="contentPage">
-            <div class="description">
-                <h2>This is not a real online service! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, commodi!</h2>
-                <h2>Sign up <em>now</em> to get started.</h2>
-                <h2>You <em>know</em> you want to.</h2>
 
+            <div class="input">
+              <label for="last-name">Last name</label>
+              <input type="text" name="last-name" id="last-name" />
             </div>
-            <form action="example.com/path" method="post" class="formClass">
 
-                <div class="logIn">
-                    <div>
-                        <h3>Let's do this!</h3>
-                    </div>
-                    <div>
-                    </div>
-                    <div class="firstData">
-                        <label for="first_name">First Name</label>
-                        <div><input type="text" id="first_name" required></div>
-                        
-                    </div>
-                    <div class="secndData">
-                        <label for="last_name">Last Name</label>
-                        <div><input type="text" id="last_name" required></div>
-                    </div>
-                    <div class="firstData">
-                        <label for="user_email" class="firstData">Email</label>
-                        <div><input type="email" id="user_email" required></div>
-                    </div>
-                    <div class="secndData">
-                        <label for="phone_number">Phone Number</label>
-                        <div><input type="tel" id="phone_number" required></div>
-                        
-                    </div>
-                    <div class="firstData">
-                        <label for="password" class="firstData">Password</label>
-                        <div><input type="password" id="password" required></div>
-                    </div>
-                    <div class="secndData">
-                        <label for="confirm_password" class="secndData">Confirm Password</label>
-                        <div><input type="password" id="confirm_password" required></div>
-                    </div>
-                </div>
-                <div class="account">
-                    <div class="accountContainer">
-                        <button type="submit"> Create Account </button>
-                    </div>
-                    <div class="accountContainer">
-                        <p>Already have an account? <a class="butLog"> Log in </a></p>
-                        
-                    </div>
-                </div>
-            </form>
+            <div class="input">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" required />
+            </div>
 
+            <div class="input">
+              <label for="phone-number">Phone number</label>
+              <input
+                type="text"
+                name="phone-number"
+                id="phone-number"
+                minlength="9"
+                maxlength="9"
+              />
+            </div>
+
+            <div class="input">
+              <label for="password">Password</label>
+              <input type="password" name="passwor" id="passwor" required />
+            </div>
+
+            <div class="input">
+              <label for="confirm-password">Confirm password</label>
+              <input
+                type="password"
+                name="confirm-password"
+                id="confirm-password"
+                required
+              />
+            </div>
+          </div>
+          <div class="left button">
+            <button type="submit">Create Account</button>
+          </div>
+        </form>
+        <div class="log-in left">
+          <p>Already have an account?</p>
+          <a href="#">Log in</a>
         </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
